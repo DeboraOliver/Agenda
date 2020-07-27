@@ -28,3 +28,6 @@ class Evento(models.Model):
 
     def get_data_evento(self):
         return self.data_evento.strftime('%d/%m/%Y %H:%M Hrs')
+
+    def get_data_input_evento(selfself):
+        return self.data_evento.strftime('%Y-%m-%dT%H:%M')#precisamos da id e ele só reconhece se for nesse formato
